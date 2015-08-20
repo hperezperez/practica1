@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,10 +12,8 @@
 		<!-- Optional Bootstrap theme -->
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
 
-		<!-- ////////////////////////////////////////////////
-		//// LINK TO YOUR CUSTOM CSS FILES HERE
-		//// <link type="text/css" href="css/style.css" rel="stylesheet"/>
-		///////////////////////////////////////////////////// -->
+		<!--custom css-->
+		<link type="text/css" href="css/style.css" rel="stylesheet"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,11 +30,63 @@
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<title>Bootstrap 101 Template (DDC Version!)</title>
+		<title>Bootstrap Sample Page</title>
 	</head>
-	<body>
-		<div class="container">
-			<h1>Hello, world! I'm a Bootstrap page! :D</h1>
+	<body class="sfooter">
+
+		<!--this wrapper div is for the sticky footer-->
+		<div class="sfooter-content">
+
+			<!--begin page header-->
+			<header>
+				<div class="container">
+					<h1>Welcome to this site</h1>
+					<ul class="nav nav-pills pull-right">
+						<li role="presentation"><a href="#">Home</a></li>
+						<li role="presentation"><a href="#">Profile</a></li>
+						<li role="presentation"><a href="#">Messages</a></li>
+					</ul>
+				</div>
+			</header>
+
+			<!--begin main body content-->
+			<main class="container">
+
+				<!--first content row, full-width-->
+				<div class="row">
+					<div class="col-xs-12">
+
+						<p>. content area</p>
+					</div>
+				</div>
+
+
+				<!--second content row, split-->
+				<div class="row">
+					<div class="col-md-6">
+						<div {
+						     width: 300px
+								padding :25px
+								border :25px solid nave
+						      margin: 26pm
+						}
+						<p> Celular phones</p>
+					</div>
+					<div class="col-md-6">
+						<p>  Payment
+
+						</p>
+					</div>
+				</div>
+
+			</main>
 		</div>
+
+		<!--begin footer-->
+		<footer>
+			<div class="container">
+				<p>&copy;&nbsp;2015 Last Minute LLC.</p>
+			</div>
+		</footer>
 	</body>
 </html>
